@@ -4,15 +4,16 @@ import viteLogo from '/vite.svg'
 
 import TheHeader from './components/TheHeader'
 import TheFooter from './components/TheFooter'
-import './css/App.css'
-
+import Card from './components/card'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <TheHeader />
-      <main></main>
+      <main>
+        <Card />
+      </main>
       <TheFooter />
     </>
   )
